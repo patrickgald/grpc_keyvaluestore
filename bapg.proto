@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package grpcBAPG;
+
+service List {
+    rpc put(Item) returns (Item);
+    rpc get(SpecificItem) returns (Item);
+    rpc getAllKeys(voidNoParam) returns (stream Item);
+}
+
+message voidNoParam {}
+
+message Item {
+    string key = 1;
+    string value = 2;
+}
+
+message Items {
+    repeated Item items = 1;
+}
+
+message SpecificItem{
+    string key = 1;
+}

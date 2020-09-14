@@ -1,0 +1,24 @@
+{
+  "name": "kv-store-grpc-bapg",
+  "version": "1.0.0",
+  "description": "Trabalho de KeyValueStore utilizando gRPC para a materia de LDAMD",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PUC-ES-LDAMD/kv-store-grpc-bapg.git"
+  },
+  "authors": {
+    "author": "Bruno Armanelli"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PUC-ES-LDAMD/kv-store-grpc-bapg/issues"
+  },
+  "homepage": "https://github.com/PUC-ES-LDAMD/kv-store-grpc-bapg#readme",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.5.5",
+    "crypto": "^1.0.1",
+    "grpc": "^1.24.3"
+  }
+}
